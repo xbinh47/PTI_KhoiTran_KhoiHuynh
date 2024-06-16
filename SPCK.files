@@ -1,10 +1,11 @@
-PTI_KhoiTran_KhoiHuynh/app.py
-PTI_KhoiTran_KhoiHuynh/app/file.txt
-PTI_KhoiTran_KhoiHuynh/data/file.txt
-PTI_KhoiTran_KhoiHuynh/img/file.txt
-PTI_KhoiTran_KhoiHuynh/ui/file.txt
 app.py
+setup.py
+.qtc_clangd/compile_commands.json
 app/file.txt
 data/file.txt
 img/file.txt
 ui/file.txt
+ui/information.ui
+ui/Login.ui
+ui/mainwindow.ui
+ui/register.ui
