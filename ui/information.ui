@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(248, 248, 219)</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label_7">
     <property name="geometry">
@@ -33,8 +36,8 @@
    <widget class="QDateEdit" name="dateEdit">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>160</y>
+      <x>40</x>
+      <y>400</y>
       <width>211</width>
       <height>31</height>
      </rect>
@@ -46,8 +49,8 @@
    <widget class="QLineEdit" name="lineEdit_2">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>200</y>
+      <x>200</x>
+      <y>90</y>
       <width>191</width>
       <height>31</height>
      </rect>
@@ -59,8 +62,8 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>210</y>
+      <x>40</x>
+      <y>260</y>
       <width>101</width>
       <height>16</height>
      </rect>
@@ -78,8 +81,8 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>140</y>
+      <x>40</x>
+      <y>380</y>
       <width>91</width>
       <height>16</height>
      </rect>
@@ -97,8 +100,8 @@
    <widget class="QLineEdit" name="lineEdit_4">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>290</y>
+      <x>40</x>
+      <y>340</y>
       <width>241</width>
       <height>31</height>
      </rect>
@@ -110,8 +113,8 @@
    <widget class="QCheckBox" name="Female_gender">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>250</y>
+      <x>40</x>
+      <y>490</y>
       <width>58</width>
       <height>18</height>
      </rect>
@@ -126,8 +129,8 @@
    <widget class="QLineEdit" name="lineEdit_3">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>230</y>
+      <x>40</x>
+      <y>280</y>
       <width>241</width>
       <height>31</height>
      </rect>
@@ -139,8 +142,8 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>180</y>
+      <x>200</x>
+      <y>70</y>
       <width>71</width>
       <height>20</height>
      </rect>
@@ -161,8 +164,8 @@
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>270</y>
+      <x>40</x>
+      <y>320</y>
       <width>71</width>
       <height>20</height>
      </rect>
@@ -180,8 +183,8 @@
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>140</y>
+      <x>40</x>
+      <y>190</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -199,8 +202,8 @@
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>210</y>
+      <x>40</x>
+      <y>450</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -218,8 +221,8 @@
    <widget class="QLineEdit" name="lineEdit_5">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>160</y>
+      <x>40</x>
+      <y>210</y>
       <width>241</width>
       <height>31</height>
      </rect>
@@ -231,8 +234,8 @@
    <widget class="QCheckBox" name="Male_gender">
     <property name="geometry">
      <rect>
-      <x>550</x>
-      <y>230</y>
+      <x>40</x>
+      <y>470</y>
       <width>58</width>
       <height>18</height>
      </rect>
@@ -248,8 +251,8 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>360</y>
+      <x>610</x>
+      <y>510</y>
       <width>80</width>
       <height>18</height>
      </rect>
@@ -269,8 +272,8 @@
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>360</y>
+      <x>700</x>
+      <y>510</y>
       <width>80</width>
       <height>18</height>
      </rect>
@@ -287,16 +290,53 @@
      <string>Reset All</string>
     </property>
    </widget>
-   <widget class="QWidget" name="verticalLayoutWidget">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>250</y>
-      <width>171</width>
-      <height>121</height>
+      <y>0</y>
+      <width>181</width>
+      <height>181</height>
      </rect>
     </property>
-    <layout class="QVBoxLayout" name="verticalLayout"/>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Downloads/th-removebg-preview (1).png</pixmap>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>121</y>
+      <width>256</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(64, 65, 66);</string>
+    </property>
+   </widget>
+   <widget class="QCalendarWidget" name="calendarWidget">
+    <property name="geometry">
+     <rect>
+      <x>550</x>
+      <y>0</y>
+      <width>200</width>
+      <height>117</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
