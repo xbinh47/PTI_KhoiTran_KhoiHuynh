@@ -226,6 +226,6 @@ class Information(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    window = Information("binhnguyenxuan47@gmail.com")
+    window = Login()
     window.show()
     app.exec()
