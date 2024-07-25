@@ -39,46 +39,11 @@
      <string>Register</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_2">
+   <widget class="QLineEdit" name="txt_password">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>90</y>
-      <width>71</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Bahnschrift</family>
-      <pointsize>15</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string>Username</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit">
-    <property name="geometry">
-     <rect>
-      <x>290</x>
-      <y>120</y>
-      <width>241</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>290</x>
-      <y>260</y>
+      <x>270</x>
+      <y>240</y>
       <width>241</width>
       <height>31</height>
      </rect>
@@ -90,8 +55,8 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>240</y>
+      <x>270</x>
+      <y>220</y>
       <width>101</width>
       <height>16</height>
      </rect>
@@ -106,11 +71,11 @@
      <string>Password</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="txt_email">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>190</y>
+      <x>270</x>
+      <y>170</y>
       <width>241</width>
       <height>31</height>
      </rect>
@@ -122,8 +87,8 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>170</y>
+      <x>270</x>
+      <y>150</y>
       <width>71</width>
       <height>16</height>
      </rect>
@@ -138,11 +103,11 @@
      <string>Email</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_register">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>380</y>
+      <x>300</x>
+      <y>390</y>
       <width>171</width>
       <height>31</height>
      </rect>
@@ -165,8 +130,8 @@ border-radius:15px;
    <widget class="QCheckBox" name="checkBox">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>350</y>
+      <x>270</x>
+      <y>330</y>
       <width>191</width>
       <height>18</height>
      </rect>
@@ -178,8 +143,8 @@ border-radius:15px;
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>300</y>
+      <x>270</x>
+      <y>280</y>
       <width>131</width>
       <height>16</height>
      </rect>
@@ -194,11 +159,11 @@ border-radius:15px;
      <string>Confirm Password</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_4">
+   <widget class="QLineEdit" name="txt_conf_pwd">
     <property name="geometry">
      <rect>
-      <x>290</x>
-      <y>320</y>
+      <x>270</x>
+      <y>300</y>
       <width>241</width>
       <height>31</height>
      </rect>
@@ -207,6 +172,107 @@ border-radius:15px;
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>380</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../Downloads/th (1).jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_fullname">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>100</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>80</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Full name</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>350</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>already have an account?</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_login">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>350</y>
+      <width>80</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Bahnschrift</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>log in</string>
+    </property>
+   </widget>
+   <zorder>label_6</zorder>
+   <zorder>label</zorder>
+   <zorder>txt_password</zorder>
+   <zorder>label_3</zorder>
+   <zorder>txt_email</zorder>
+   <zorder>label_4</zorder>
+   <zorder>btn_register</zorder>
+   <zorder>checkBox</zorder>
+   <zorder>label_5</zorder>
+   <zorder>txt_conf_pwd</zorder>
+   <zorder>txt_fullname</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_2</zorder>
+   <zorder>btn_login</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

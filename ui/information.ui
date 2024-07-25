@@ -23,17 +23,20 @@
    <widget class="QLabel" name="label_7">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>181</width>
-      <height>191</height>
+      <x>0</x>
+      <y>20</y>
+      <width>171</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../../../../Downloads/th-removebg-preview.png</pixmap>
+     <pixmap>../../../../Downloads/th__1_-removebg-preview.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QDateEdit" name="dateEdit">
@@ -49,11 +52,11 @@
      <string notr="true">background-color: rgb(255, 255, 255);</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="txt_Username">
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>90</y>
+      <y>60</y>
       <width>191</width>
       <height>31</height>
      </rect>
@@ -100,7 +103,7 @@
      <string>Date of birth</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_4">
+   <widget class="QLineEdit" name="txt_Address">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -123,13 +126,14 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(255, 167, 221);</string>
+     <string notr="true">color: rgb(255, 167, 221);
+background-color: rgb(73, 73, 73);</string>
     </property>
     <property name="text">
      <string>Female</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_3">
+   <widget class="QLineEdit" name="txt_Password">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -146,7 +150,7 @@
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>70</y>
+      <y>40</y>
       <width>71</width>
       <height>20</height>
      </rect>
@@ -221,7 +225,7 @@
      <string>Gender</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_5">
+   <widget class="QLineEdit" name="txt_Email">
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -244,14 +248,14 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">color: rgb(35, 167, 255);
-</string>
+     <string notr="true">color: rgb(117, 241, 255);
+background-color: rgb(78, 78, 78)</string>
     </property>
     <property name="text">
      <string>Male</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btn_apply">
     <property name="geometry">
      <rect>
       <x>130</x>
@@ -272,7 +276,7 @@
      <string>Apply</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btn_logout">
     <property name="geometry">
      <rect>
       <x>130</x>
@@ -297,7 +301,7 @@
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>130</y>
+      <y>100</y>
       <width>80</width>
       <height>18</height>
      </rect>
@@ -306,84 +310,28 @@
      <string>insert image</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>640</x>
-      <y>50</y>
-      <width>181</width>
-      <height>161</height>
+      <x>10</x>
+      <y>0</y>
+      <width>31</width>
+      <height>21</height>
      </rect>
     </property>
-    <property name="text">
-     <string/>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
     </property>
-    <property name="pixmap">
-     <pixmap>../../../../Downloads/umbrella-removebg-preview.png</pixmap>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_2">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>440</y>
-      <width>471</width>
-      <height>121</height>
-     </rect>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(41, 41, 41);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../../../../Downloads/sd.png</pixmap>
+     <string>&lt;</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_10">
-    <property name="geometry">
-     <rect>
-      <x>330</x>
-      <y>410</y>
-      <width>481</width>
-      <height>151</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../../../../Downloads/sd.png</pixmap>
-    </property>
-   </widget>
-   <zorder>label_10</zorder>
-   <zorder>label_2</zorder>
-   <zorder>label_7</zorder>
-   <zorder>dateEdit</zorder>
-   <zorder>lineEdit_2</zorder>
-   <zorder>label_3</zorder>
-   <zorder>label_5</zorder>
-   <zorder>lineEdit_4</zorder>
-   <zorder>Female_gender</zorder>
-   <zorder>lineEdit_3</zorder>
-   <zorder>label_4</zorder>
-   <zorder>label_8</zorder>
-   <zorder>label_6</zorder>
-   <zorder>label_9</zorder>
-   <zorder>lineEdit_5</zorder>
-   <zorder>Male_gender</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>pushButton_2</zorder>
-   <zorder>pushButton_3</zorder>
-   <zorder>label</zorder>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>17</height>
-    </rect>
-   </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
