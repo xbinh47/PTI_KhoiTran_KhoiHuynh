@@ -191,9 +191,9 @@ class Information(QMainWindow):
         self.user['address'] = self.address.text()
         self.user['dob'] = self.birthday.text()
         if self.maleCheckBox.isChecked():
-            self.user['gender'] == 'Male'
+            self.user['gender'] = 'Male'
         if self.femaleCheckBox.isChecked():
-            self.user['gender'] == 'Female'
+            self.user['gender'] = 'Female'
         if self.file:
             self.user['avatar'] = self.file
             
@@ -226,6 +226,6 @@ class Information(QMainWindow):
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
-    window = Information("a")
+    window = Information("binhnguyenxuan47@gmail.com")
     window.show()
     app.exec()
