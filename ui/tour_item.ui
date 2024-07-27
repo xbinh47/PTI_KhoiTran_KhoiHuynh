@@ -19,7 +19,7 @@
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <widget class="QLabel" name="label">
+  <widget class="QLabel" name="title">
    <property name="geometry">
     <rect>
      <x>10</x>
@@ -38,10 +38,10 @@
     <string>Tour du lịch Việt Nam - Trung quốc:</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_2">
+  <widget class="QLabel" name="time">
    <property name="geometry">
     <rect>
-     <x>30</x>
+     <x>10</x>
      <y>210</y>
      <width>81</width>
      <height>16</height>
@@ -57,7 +57,7 @@
     <string>6 ngày -5 đêm</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_3">
+  <widget class="QLabel" name="date">
    <property name="geometry">
     <rect>
      <x>20</x>
@@ -76,7 +76,7 @@
     <string>Ngày khởi hành : thứ 4 hàng tuần</string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_4">
+  <widget class="QLabel" name="price">
    <property name="geometry">
     <rect>
      <x>50</x>
@@ -98,7 +98,7 @@
     <string>Giá Tour : 10,990,000 </string>
    </property>
   </widget>
-  <widget class="QLabel" name="label_5">
+  <widget class="QLabel" name="image">
    <property name="geometry">
     <rect>
      <x>30</x>

@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Hà Nội - Cao Bằng - Pác Bó",
+        "time": "3 ngày 2 đêm",
+        "date": "Hàng Tuần",
+        "image": "img/tour1.jpg",
+        "price": "2,390,000 VNĐ"
+    },
+    {
+        "title": "Sapa - Hà Khẩu",
+        "time": "1 ngày",
+        "date": "Hàng Ngày",
+        "image": "img/tour2.jpg",
+        "price": "550,000 VNĐ"
+    },
+    {
+        "title": "Hà Nội - Phú Quốc",
+        "time": "4 ngày 3 đêm",
+        "date": "Theo Yêu Cầu",
+        "image": "img/tour3.jpg",
+        "price": "3,790,000 VNĐ"
+    },
+    {
+        "title": "Hà Nội - Phú Quốc",
+        "time": "4 ngày 3 đêm",
+        "date": "Theo Yêu Cầu",
+        "image": "img/tour4.jpg",
+        "price": "7,190,000 VNĐ"
+    }
+]

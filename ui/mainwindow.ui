@@ -58,7 +58,7 @@
       <string>HOME</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="tourBtn">
      <property name="geometry">
       <rect>
        <x>180</x>
@@ -74,10 +74,10 @@
       <string>Tour</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_2">
+    <widget class="QPushButton" name="bookingBtn">
      <property name="geometry">
       <rect>
-       <x>430</x>
+       <x>330</x>
        <y>20</y>
        <width>75</width>
        <height>24</height>
@@ -87,10 +87,10 @@
       <string>Booking</string>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="customerBtn">
      <property name="geometry">
       <rect>
-       <x>600</x>
+       <x>470</x>
        <y>20</y>
        <width>75</width>
        <height>24</height>
@@ -99,6 +99,42 @@
      <property name="text">
       <string>Customer</string>
      </property>
+    </widget>
+    <widget class="QPushButton" name="accountBtn">
+     <property name="geometry">
+      <rect>
+       <x>630</x>
+       <y>20</y>
+       <width>75</width>
+       <height>24</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Account</string>
+     </property>
+    </widget>
+    <widget class="QScrollArea" name="scrollArea">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>761</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <property name="widgetResizable">
+      <bool>true</bool>
+     </property>
+     <widget class="QWidget" name="scrollAreaWidgetContents">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>759</width>
+        <height>449</height>
+       </rect>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>

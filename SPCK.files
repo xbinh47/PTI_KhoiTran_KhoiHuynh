@@ -3,12 +3,16 @@ setup.py
 .qtc_clangd/compile_commands.json
 app/file.txt
 data/file.txt
+data/user.json
 img/file.txt
-ui/Customer.ui
 ui/booking.ui
+ui/Customer.ui
 ui/file.txt
 ui/form.ui
 ui/home.ui
+ui/information.ui
+ui/Login.ui
 ui/mainwindow.ui
+ui/register.ui
 ui/Tour.ui
 ui/tour_item.ui

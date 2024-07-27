@@ -337,7 +337,7 @@ border-radius: 10px;</string>
     <string>Tôi đã xác nhận</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="backBtn">
    <property name="geometry">
     <rect>
      <x>450</x>
